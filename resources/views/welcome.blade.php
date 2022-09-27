@@ -28,8 +28,8 @@
 <link href="css/style.min.css" rel="stylesheet">
     </head>
     <body class="antialiased">
-        <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
-            @if (Route::has('login'))
+        {{-- <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0"> --}}
+            {{-- @if (Route::has('login'))
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                     @auth
                         <a href="{{ url('/home') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Home</a>
@@ -41,13 +41,13 @@
                         @endif
                     @endauth
                 </div>
-            @endif
+            @endif --}}
 
              <!-- Navbar Start -->
     <div class="container-fluid p-0 nav-bar">
         <nav class="navbar navbar-expand-lg bg-none navbar-dark py-3">
             <a href="index.html" class="navbar-brand px-lg-4 m-0">
-                <h1 class="m-0 display-4 text-uppercase text-white">KOPPEE</h1>
+                <img class="" style="width: 200px;" src="img/LogoS.png" alt="Image">
             </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
@@ -79,17 +79,17 @@
                 <div class="carousel-item active">
                     <img class="w-100" src="img/carousel-1.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <h2 class="text-primary font-weight-medium m-0">We Have Been Serving</h2>
+                        <h2 class="text-primary font-weight-medium m-0">LA QUE SE LLEVA BIEN</h2>
                         <h1 class="display-1 text-white m-0">SALSANGRITA</h1>
-                        <h2 class="text-white m-0">* SINCE 1950 *</h2>
+                        <h2 class="text-white m-0">* DESDE 1975 *</h2>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img class="w-100" src="img/carousel-2.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <h2 class="text-primary font-weight-medium m-0">We Have Been Serving</h2>
-                        <h1 class="display-1 text-white m-0">COFFEE</h1>
-                        <h2 class="text-white m-0">* SINCE 1950 *</h2>
+                        <h2 class="text-primary font-weight-medium m-0">LA QUE SE LLEVA BIEN</h2>
+                        <h1 class="display-1 text-white m-0">SALSANGRITA</h1>
+                        <h2 class="text-white m-0">* DESDE 1975 *</h2>
                     </div>
                 </div>
             </div>
@@ -108,15 +108,14 @@
     <div class="container-fluid py-5">
         <div class="container">
             <div class="section-title">
-                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">About Us</h4>
-                <h1 class="display-4">Serving Since 1950</h1>
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Acerca de nosotros</h4>
+                <h1 class="display-4">Al Servicio desde 1975</h1>
             </div>
             <div class="row">
                 <div class="col-lg-4 py-0 py-lg-5">
-                    <h1 class="mb-3">Our Story</h1>
-                    <h5 class="mb-3">Eos kasd eos dolor vero vero, lorem stet diam rebum. Ipsum amet sed vero dolor sea</h5>
-                    <p>Takimata sed vero vero no sit sed, justo clita duo no duo amet et, nonumy kasd sed dolor eos diam lorem eirmod. Amet sit amet amet no. Est nonumy sed labore eirmod sit magna. Erat at est justo sit ut. Labor diam sed ipsum et eirmod</p>
-                    <a href="" class="btn btn-secondary font-weight-bold py-2 px-4 mt-2">Learn More</a>
+                    <h1 class="mb-3">Mision</h1>
+                    <p>Elaborar y comercializar “Salsangrita” con estrictos estándares de calidad sin perder el concepto tradicional y el sabor inigualable en cada paso de su proceso, generando un sentido de pertenencia hacia la marca gracias a los componentes físicos, visuales, de estatus y originalidad de nuestro producto al momento de ser consumido.</p>
+                    {{-- <a href="" class="btn btn-secondary font-weight-bold py-2 px-4 mt-2">Learn More</a> --}}
                 </div>
                 <div class="col-lg-4 py-5 py-lg-0" style="min-height: 500px;">
                     <div class="position-relative h-100">
@@ -124,12 +123,12 @@
                     </div>
                 </div>
                 <div class="col-lg-4 py-0 py-lg-5">
-                    <h1 class="mb-3">Our Vision</h1>
-                    <p>Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos, ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est dolor</p>
+                    <h1 class="mb-3">Vision</h1>
+                    <p>Ser una marca totalmente reconocida a nivel nacional y posicionarnos en el mercado extranjero como una Sangrita única por sus características. El posicionamiento lo lograremos en base a los componentes físicos, visuales, de estatus y originalidad de nuestro producto que serán fijados en la mente del cliente cautivo y por consecuencia el incremento gradual de estos.</p>
+                    {{-- <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</h5>
                     <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</h5>
-                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</h5>
-                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</h5>
-                    <a href="" class="btn btn-primary font-weight-bold py-2 px-4 mt-2">Learn More</a>
+                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</h5> --}}
+                    {{-- <a href="" class="btn btn-primary font-weight-bold py-2 px-4 mt-2">Learn More</a> --}}
                 </div>
             </div>
         </div>
@@ -141,55 +140,79 @@
     <div class="container-fluid pt-5">
         <div class="container">
             <div class="section-title">
-                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Our Services</h4>
-                <h1 class="display-4">Fresh & Organic Beans</h1>
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Nuestro Producto</h4>
+                <h1 class="display-4">Ficha Tecnica</h1>
             </div>
             <div class="row">
                 <div class="col-lg-6 mb-5">
                     <div class="row align-items-center">
                         <div class="col-sm-5">
-                            <img class="img-fluid mb-3 mb-sm-0" src="img/service-1.jpg" alt="">
+                            {{-- <img class="img-fluid mb-3 mb-sm-0" src="img/service-1.jpg" alt=""> --}}
+                            <i class="fas fa-home service-icon"></i>
                         </div>
                         <div class="col-sm-7">
-                            <h4><i class="fa fa-truck service-icon"></i>Fastest Door Delivery</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit
-                                invidunt, dolore tempor diam ipsum takima erat tempor</p>
+                            <h4>Origen</h4>
+                            <p class="m-0">Salsangrita es una sangrita originaria de Aguascalientes creada por el Sr. Arturo González.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 mb-5">
                     <div class="row align-items-center">
                         <div class="col-sm-5">
-                            <img class="img-fluid mb-3 mb-sm-0" src="img/service-2.jpg" alt="">
+                            {{-- <img class="img-fluid mb-3 mb-sm-0" src="img/service-2.jpg" alt=""> --}}
+                            <i class="fas fa-building service-icon"></i>
                         </div>
                         <div class="col-sm-7">
-                            <h4><i class="fa fa-coffee service-icon"></i>Fresh Coffee Beans</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit
-                                invidunt, dolore tempor diam ipsum takima erat tempor</p>
+                            <h4>Empresa que lo produce</h4>
+                            <p class="m-0">Salsangrita es producida por la empresa del mismo nombre "SALSANGRITA"</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 mb-5">
                     <div class="row align-items-center">
                         <div class="col-sm-5">
-                            <img class="img-fluid mb-3 mb-sm-0" src="img/service-3.jpg" alt="">
+                            {{-- <img class="img-fluid mb-3 mb-sm-0" src="img/service-3.jpg" alt=""> --}}
+                            <i class="fas fa-temperature-low service-icon"></i>
                         </div>
                         <div class="col-sm-7">
-                            <h4><i class="fa fa-award service-icon"></i>Best Quality Coffee</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit
-                                invidunt, dolore tempor diam ipsum takima erat tempor</p>
+                            <h4>Temperatura de Conservación</h4>
+                            <p class="m-0">Bajo la sombra en clima fresco, una vez abierta tiene que meterse a refrigeración y el tiempo de vida se extiende a 12 meses</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 mb-5">
                     <div class="row align-items-center">
                         <div class="col-sm-5">
-                            <img class="img-fluid mb-3 mb-sm-0" src="img/service-4.jpg" alt="">
+                            {{-- <img class="img-fluid mb-3 mb-sm-0" src="img/service-4.jpg" alt=""> --}}
+                            <i class="fas fa-wine-bottle service-icon"></i>
                         </div>
                         <div class="col-sm-7">
-                            <h4><i class="fa fa-table service-icon"></i>Online Table Booking</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit
-                                invidunt, dolore tempor diam ipsum takima erat tempor</p>
+                            <h4>Contenido</h4>
+                            <p class="m-0">Contenido en la Botella por mililitros/onzas: 1,000 ml.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-5">
+                    <div class="row align-items-center">
+                        <div class="col-sm-5">
+                            {{-- <img class="img-fluid mb-3 mb-sm-0" src="img/service-3.jpg" alt=""> --}}
+                            <i class="fas fa-box-open service-icon"></i>
+                        </div>
+                        <div class="col-sm-7">
+                            <h4>Empaquetado</h4>
+                            <p class="m-0">La caja contiene 12 botellas con un peso aproximado de 20 kg por caja dando asi unas dimensiones de alto 31, largo 36.5 y ancho27.5</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-5">
+                    <div class="row align-items-center">
+                        <div class="col-sm-5">
+                            {{-- <img class="img-fluid mb-3 mb-sm-0" src="img/service-3.jpg" alt=""> --}}
+                            <i class="fas fa-photo-video service-icon"></i>
+                        </div>
+                        <div class="col-sm-7">
+                            <h4>Video de referencia</h4>
+                            <p class="m-0"><a href="https://www.youtube.com/watch?v=LjpVLymQcEk">https://www.youtube.com/watch?v=LjpVLymQcEk</a></p>
                         </div>
                     </div>
                 </div>
@@ -200,7 +223,7 @@
 
 
     <!-- Offer Start -->
-    <div class="offer container-fluid my-5 py-5 text-center position-relative overlay-top overlay-bottom">
+    {{-- <div class="offer container-fluid my-5 py-5 text-center position-relative overlay-top overlay-bottom">
         <div class="container py-5">
             <h1 class="display-3 text-primary mt-3">50% OFF</h1>
             <h1 class="text-white mb-3">Sunday Special Offer</h1>
@@ -214,7 +237,7 @@
                 </div>
             </form>
         </div>
-    </div>
+    </div> --}}
     <!-- Offer End -->
 
 
@@ -222,73 +245,73 @@
     <div class="container-fluid pt-5">
         <div class="container">
             <div class="section-title">
-                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Menu & Pricing</h4>
-                <h1 class="display-4">Competitive Pricing</h1>
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Recetas</h4>
+                <h1 class="display-4">Rapidas y faciles</h1>
             </div>
             <div class="row">
                 <div class="col-lg-6">
-                    <h1 class="mb-5">Hot Coffee</h1>
+                    <h1 class="mb-5">Bebidas</h1>
                     <div class="row align-items-center mb-5">
                         <div class="col-4 col-sm-3">
-                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-1.jpg" alt="">
-                            <h5 class="menu-price">$5</h5>
+                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-1.png" alt="">
+                            {{-- <h5 class="menu-price">$5</h5> --}}
                         </div>
                         <div class="col-8 col-sm-9">
-                            <h4>Black Coffee</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor</p>
+                            <h4>Michelada</h4>
+                            <p class="m-0">En un vaso escarchado con sal, agrega hielo en cubos, el jugo de un limón 1/2 vaso de salsangrita y completa con tu cerveza favorita.</p>
                         </div>
                     </div>
                     <div class="row align-items-center mb-5">
                         <div class="col-4 col-sm-3">
-                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-2.jpg" alt="">
-                            <h5 class="menu-price">$7</h5>
+                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-2.png" alt="">
+                            {{-- <h5 class="menu-price">$7</h5> --}}
                         </div>
                         <div class="col-8 col-sm-9">
-                            <h4>Chocolete Coffee</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor</p>
+                            <h4>Tequila Bandera</h4>
+                            <p class="m-0">El tradicional por excelencia: un caballito de jugo de limón, un caballito de tequila de tu preferencia y un caballito de salsangrita.</p>
                         </div>
                     </div>
                     <div class="row align-items-center mb-5">
                         <div class="col-4 col-sm-3">
-                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-3.jpg" alt="">
-                            <h5 class="menu-price">$9</h5>
+                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-3.png" alt="">
+                            {{-- <h5 class="menu-price">$9</h5> --}}
                         </div>
                         <div class="col-8 col-sm-9">
-                            <h4>Coffee With Milk</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor</p>
+                            <h4>Vampiro</h4>
+                            <p class="m-0">En un vaso escarchado con chile en polvo, agrega hielo en cubos, el jugo de 1 limón, 1/3 del vaso con tequila de tu preferencía, 1/3 de salsangrita y complementa con refresco de toronja.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <h1 class="mb-5">Cold Coffee</h1>
+                    <h1 class="mb-5">Comidas</h1>
                     <div class="row align-items-center mb-5">
                         <div class="col-4 col-sm-3">
-                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-1.jpg" alt="">
-                            <h5 class="menu-price">$5</h5>
+                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-4.png" alt="">
+                            {{-- <h5 class="menu-price">$5</h5> --}}
                         </div>
                         <div class="col-8 col-sm-9">
-                            <h4>Black Coffee</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor</p>
+                            <h4>Carnes y mariscos</h4>
+                            <p class="m-0">Coloca en un bol de vidrio la carne y por cada kilo de carne media taza de salsangrita y deja reposar por 2 horas para despues asar. En otro bol añade los mariscos, chile serrano, pepino, cilantro, cebolla y aguacate por ultimo baña los mariscos en salsangrita y a disfrutar. </p>
                         </div>
                     </div>
                     <div class="row align-items-center mb-5">
                         <div class="col-4 col-sm-3">
-                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-2.jpg" alt="">
-                            <h5 class="menu-price">$7</h5>
+                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-6.png" alt="">
+                            {{-- <h5 class="menu-price">$7</h5> --}}
                         </div>
                         <div class="col-8 col-sm-9">
-                            <h4>Chocolete Coffee</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor</p>
+                            <h4>Botanas</h4>
+                            <p class="m-0">Baña con salsangrita tus botanas favoritas, ya sean cacahuates, papas, habas... ¡Todas están deliciosas con salsangrita!.</p>
                         </div>
                     </div>
                     <div class="row align-items-center mb-5">
                         <div class="col-4 col-sm-3">
-                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-3.jpg" alt="">
-                            <h5 class="menu-price">$9</h5>
+                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-5.png" alt="">
+                            {{-- <h5 class="menu-price">$9</h5> --}}
                         </div>
                         <div class="col-8 col-sm-9">
-                            <h4>Coffee With Milk</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor</p>
+                            <h4>Frutas</h4>
+                            <p class="m-0">Corta en gajitos la fruta o verdura de tu preferencia y baña con salsangrita al gusto. TIP: Haz unas sencillas y bonitas brochetas de mango, manzana y piña para acompañar con salsangrita ¡No te arrepentiras!</p>
                         </div>
                     </div>
                 </div>
@@ -364,7 +387,7 @@
 
 
     <!-- Testimonial Start -->
-    <div class="container-fluid py-5">
+    {{-- <div class="container-fluid py-5">
         <div class="container">
             <div class="section-title">
                 <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Testimonial</h4>
@@ -413,22 +436,37 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- Testimonial End -->
 
 
     <!-- Footer Start -->
     <div class="container-fluid footer text-white mt-5 pt-5 px-0 position-relative overlay-top">
         <div class="row mx-0 pt-5 px-sm-3 px-lg-5 mt-4">
-            <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Get In Touch</h4>
-                <p><i class="fa fa-map-marker-alt mr-2"></i>123 Street, New York, USA</p>
-                <p><i class="fa fa-phone-alt mr-2"></i>+012 345 67890</p>
-                <p class="m-0"><i class="fa fa-envelope mr-2"></i>info@example.com</p>
+            <div class="col-lg-4 col-md-6 mb-5">
+                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Extranjero</h4>
+                <p><i class="fas fa-user mr-2"></i>Miguel Mora Rodríguez</p>
+                <p><i class="fa fa-phone-alt mr-2"></i>+52 81 8022 5201</p>
+                <p class="m-0"><i class="fa fa-envelope mr-2"></i>mmorar@salsangrita.com</p>
+                <hr style="border-color: beige">
+                <p><i class="fas fa-user mr-2"></i>Miguel Mora Hernández</p>
+                <p><i class="fa fa-phone-alt mr-2"></i>+52 81 1738 0237</p>
+                <p class="m-0"><i class="fa fa-envelope mr-2"></i>mmorah@salsangrita.com</p>
             </div>
-            <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Follow Us</h4>
-                <p>Amet elitr vero magna sed ipsum sit kasd sea elitr lorem rebum</p>
+            <div class="col-lg-4 col-md-6 mb-5">
+                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">méxico</h4>
+                <p><i class="fas fa-user mr-2"></i>Martha Lucia Chaires Calderón</p>
+                <p><i class="fa fa-phone-alt mr-2"></i>+52 444 800 7787</p>
+                <p class="m-0"><i class="fa fa-envelope mr-2"></i>mchaires@salsangrita.com</p>
+                <hr style="border-color: beige">
+                <p><i class="fas fa-user mr-2"></i>Gerardo Mora Hernández</p>
+                <p><i class="fa fa-phone-alt mr-2"></i>+52 444 419 7990</p>
+                <p class="m-0"><i class="fa fa-envelope mr-2"></i>gmora@salsangrita.com</p>
+            </div>
+           
+            <div class="col-lg-4 col-md-6 mb-5">
+                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Siguenos</h4>
+                {{-- <p>Amet elitr vero magna sed ipsum sit kasd sea elitr lorem rebum</p> --}}
                 <div class="d-flex justify-content-start">
                     <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
                     <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
@@ -436,31 +474,10 @@
                     <a class="btn btn-lg btn-outline-light btn-lg-square" href="#"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Open Hours</h4>
-                <div>
-                    <h6 class="text-white text-uppercase">Monday - Friday</h6>
-                    <p>8.00 AM - 8.00 PM</p>
-                    <h6 class="text-white text-uppercase">Saturday - Sunday</h6>
-                    <p>2.00 PM - 8.00 PM</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Newsletter</h4>
-                <p>Amet elitr vero magna sed ipsum sit kasd sea elitr lorem rebum</p>
-                <div class="w-100">
-                    <div class="input-group">
-                        <input type="text" class="form-control border-light" style="padding: 25px;" placeholder="Your Email">
-                        <div class="input-group-append">
-                            <button class="btn btn-primary font-weight-bold px-3">Sign Up</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
         <div class="container-fluid text-center text-white border-top mt-4 py-4 px-sm-3 px-md-5" style="border-color: rgba(256, 256, 256, .1) !important;">
-            <p class="mb-2 text-white">Copyright &copy; <a class="font-weight-bold" href="#">Domain</a>. All Rights Reserved.</a></p>
-            <p class="m-0 text-white">Designed by <a class="font-weight-bold" href="https://htmlcodex.com">HTML Codex</a></p>
+            <p class="mb-2 text-white">Copyright &copy; <a class="font-weight-bold" href="#">salsangrita</a>. Todos los derechos reservados.</a></p>
+            <p class="m-0 text-white">Creado por <a class="font-weight-bold" href="https://htmlcodex.com">Evoluciona</a></p>
         </div>
     </div>
     <!-- Footer End -->
