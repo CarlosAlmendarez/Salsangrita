@@ -4,7 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Salsangrita</title>
+        <link rel="icon" type="image/x-icon" href="img/LogoS.png">
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -54,18 +55,11 @@
             </button>
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav ml-auto p-4">
-                    <a href="index.html" class="nav-item nav-link active">Home</a>
-                    <a href="about.html" class="nav-item nav-link">About</a>
-                    <a href="service.html" class="nav-item nav-link">Service</a>
-                    <a href="menu.html" class="nav-item nav-link">Menu</a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
-                        <div class="dropdown-menu text-capitalize">
-                            <a href="reservation.html" class="dropdown-item">Reservation</a>
-                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                        </div>
-                    </div>
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    <a href="#inicio" class="nav-item nav-link active">Inicio</a>
+                    <a href="#nosotros" class="nav-item nav-link">Nosotros</a>
+                    <a href="#producto" class="nav-item nav-link">Producto</a>
+                    <a href="#recetas" class="nav-item nav-link">Recetas</a>
+                    <a href="#contacto" class="nav-item nav-link">Contacto</a>
                 </div>
             </div>
         </nav>
@@ -73,7 +67,7 @@
     <!-- Navbar End -->
 
     <!-- Carousel Start -->
-    <div class="container-fluid p-0 mb-5">
+    <div id="inicio" class="container-fluid p-0 mb-5">
         <div id="blog-carousel" class="carousel slide overlay-bottom" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -105,7 +99,7 @@
 
 
     <!-- About Start -->
-    <div class="container-fluid py-5">
+    <div id="nosotros" class="container-fluid py-5">
         <div class="container">
             <div class="section-title">
                 <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Acerca de nosotros</h4>
@@ -137,7 +131,7 @@
 
 
     <!-- Service Start -->
-    <div class="container-fluid pt-5">
+    <div id="producto" class="container-fluid pt-5">
         <div class="container">
             <div class="section-title">
                 <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Nuestro Producto</h4>
@@ -242,7 +236,7 @@
 
 
     <!-- Menu Start -->
-    <div class="container-fluid pt-5">
+    <div id="recetas" class="container-fluid pt-5">
         <div class="container">
             <div class="section-title">
                 <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Recetas</h4>
@@ -322,7 +316,7 @@
 
 
     <!-- Reservation Start -->
-    <div class="container-fluid my-5">
+    <div id="contacto" class="container-fluid my-5">
         <div class="container">
             <div class="reservation position-relative overlay-top overlay-bottom">
                 <div class="row align-items-center">
@@ -470,10 +464,9 @@
                 <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Siguenos</h4>
                 {{-- <p>Amet elitr vero magna sed ipsum sit kasd sea elitr lorem rebum</p> --}}
                 <div class="d-flex justify-content-start">
-                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-lg btn-outline-light btn-lg-square" href="#"><i class="fab fa-instagram"></i></a>
+                    <a target="_blank" class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="https://www.youtube.com/channel/UCv0L2urXemKRQJfYjIClcqA"><i class="fab fa-youtube"></i></a>
+                    <a target="_blank" class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="https://es-la.facebook.com/people/SALSANGRITA/100039105506264/"><i class="fab fa-facebook-f"></i></a>
+                    <a target="_blank" class="btn btn-lg btn-outline-light btn-lg-square" href="https://www.instagram.com/salsangrita.bajio/?hl=es"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
         </div>
