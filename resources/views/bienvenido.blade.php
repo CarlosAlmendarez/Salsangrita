@@ -55,11 +55,11 @@
             </button>
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav ml-auto p-4">
-                    <a href="#inicio" class="nav-item nav-link active">Home</a>
-                    <a href="#nosotros" class="nav-item nav-link">Us</a>
-                    <a href="#producto" class="nav-item nav-link">Data Sheet</a>
-                    <a href="#recetas" class="nav-item nav-link">Recipes</a>
-                    <a href="#contacto" class="nav-item nav-link">Contact us</a>
+                    <a href="#inicio" class="nav-item nav-link active">Inicio</a>
+                    <a href="#nosotros" class="nav-item nav-link">Nosotros</a>
+                    <a href="#producto" class="nav-item nav-link">Producto</a>
+                    <a href="#recetas" class="nav-item nav-link">Recetas</a>
+                    <a href="#contacto" class="nav-item nav-link">Contacto</a>
                 </div>
             </div>
         </nav>
@@ -73,17 +73,17 @@
                 <div class="carousel-item active">
                     <img class="w-100" src="img/carousel-1.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <h2 class="text-primary font-weight-medium m-0">THE ONE OF YOUR CHOICE</h2>
+                        <h2 class="text-primary font-weight-medium m-0">LA QUE SE LLEVA BIEN</h2>
                         <h1 class="display-1 text-white m-0">SALSANGRITA</h1>
-                        <h2 class="text-white m-0">* SINCE 1975 *</h2>
+                        <h2 class="text-white m-0">* DESDE 1975 *</h2>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img class="w-100" src="img/carousel-2.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <h2 class="text-primary font-weight-medium m-0">THE ONE OF YOUR CHOICE</h2>
+                        <h2 class="text-primary font-weight-medium m-0">LA QUE SE LLEVA BIEN</h2>
                         <h1 class="display-1 text-white m-0">SALSANGRITA</h1>
-                        <h2 class="text-white m-0">* SINCE 1975 *</h2>
+                        <h2 class="text-white m-0">* DESDE 1975 *</h2>
                     </div>
                 </div>
             </div>
@@ -102,13 +102,13 @@
     <div id="nosotros" class="container-fluid py-5">
         <div class="container">
             <div class="section-title">
-                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">ABOUT US</h4>
-                <h1 class="display-4">In Service since 1975</h1>
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Acerca de nosotros</h4>
+                <h1 class="display-4">Al Servicio desde 1975</h1>
             </div>
             <div class="row">
                 <div class="col-lg-4 py-0 py-lg-5">
-                    <h1 class="mb-3">Mission</h1>
-                    <p>Elaborate and commercialize “Salsangrita” with strict quality standards without losing the traditional concept and the incomparable flavor in each step of its process, generating a sense of belonging to the brand thanks to the physical, visual, status and originality components of our product. at the time of being consumed.</p>
+                    <h1 class="mb-3">Mision</h1>
+                    <p>Elaborar y comercializar “Salsangrita” con estrictos estándares de calidad sin perder el concepto tradicional y el sabor inigualable en cada paso de su proceso, generando un sentido de pertenencia hacia la marca gracias a los componentes físicos, visuales, de estatus y originalidad de nuestro producto al momento de ser consumido.</p>
                     {{-- <a href="" class="btn btn-secondary font-weight-bold py-2 px-4 mt-2">Learn More</a> --}}
                 </div>
                 <div class="col-lg-4 py-5 py-lg-0" style="min-height: 500px;">
@@ -118,7 +118,7 @@
                 </div>
                 <div class="col-lg-4 py-0 py-lg-5">
                     <h1 class="mb-3">Vision</h1>
-                    <p>Being a fully recognized brand at the national level and positioning ourselves in the foreign market as a unique Sangrita due to its characteristics. We will achieve the positioning based on the physical, visual, status and originality components of our product that will be fixed in the mind of the captive customer and consequently the gradual increase of these.</p>
+                    <p>Ser una marca totalmente reconocida a nivel nacional y posicionarnos en el mercado extranjero como una Sangrita única por sus características. El posicionamiento lo lograremos en base a los componentes físicos, visuales, de estatus y originalidad de nuestro producto que serán fijados en la mente del cliente cautivo y por consecuencia el incremento gradual de estos.</p>
                     {{-- <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</h5>
                     <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</h5>
                     <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</h5> --}}
@@ -134,8 +134,8 @@
     <div id="producto" class="container-fluid pt-5">
         <div class="container">
             <div class="section-title">
-                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Our products</h4>
-                <h1 class="display-4">Data Sheet</h1>
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Nuestro Producto</h4>
+                <h1 class="display-4">Ficha Tecnica</h1>
             </div>
             <div class="row">
                 <div class="col-lg-6 mb-5">
@@ -145,8 +145,8 @@
                             <i class="fas fa-home service-icon"></i>
                         </div>
                         <div class="col-sm-7">
-                            <h4>Source</h4>
-                            <p class="m-0">‘Salsangrita’ is a ‘sangrita’ created originally by Mr. Arturo González in Aguascalientes, México.</p>
+                            <h4>Origen</h4>
+                            <p class="m-0">Salsangrita es una sangrita originaria de Aguascalientes creada por el Sr. Arturo González.</p>
                         </div>
                     </div>
                 </div>
@@ -157,8 +157,8 @@
                             <i class="fas fa-building service-icon"></i>
                         </div>
                         <div class="col-sm-7">
-                            <h4>Company name</h4>
-                            <p class="m-0">Salsangrita is produced by the company of the same name "SALSANGRITA"</p>
+                            <h4>Empresa que lo produce</h4>
+                            <p class="m-0">Salsangrita es producida por la empresa del mismo nombre "SALSANGRITA"</p>
                         </div>
                     </div>
                 </div>
@@ -169,8 +169,8 @@
                             <i class="fas fa-temperature-low service-icon"></i>
                         </div>
                         <div class="col-sm-7">
-                            <h4>Storage temperature</h4>
-                            <p class="m-0">Keep in low-lit, cool room. Once opened, keep refrigerated. Twelve month shelf life.</p>
+                            <h4>Temperatura de Conservación</h4>
+                            <p class="m-0">Bajo la sombra en clima fresco, una vez abierta tiene que meterse a refrigeración y el tiempo de vida se extiende a 12 meses</p>
                         </div>
                     </div>
                 </div>
@@ -181,8 +181,8 @@
                             <i class="fas fa-wine-bottle service-icon"></i>
                         </div>
                         <div class="col-sm-7">
-                            <h4>Content</h4>
-                            <p class="m-0">Content in the Bottle per milliliters/ounces: 1,000 ml.</p>
+                            <h4>Contenido</h4>
+                            <p class="m-0">Contenido en la Botella por mililitros/onzas: 1,000 ml.</p>
                         </div>
                     </div>
                 </div>
@@ -193,8 +193,8 @@
                             <i class="fas fa-box-open service-icon"></i>
                         </div>
                         <div class="col-sm-7">
-                            <h4>Packaging</h4>
-                            <p class="m-0">The box contains 12 bottles with an approximate weight of 20 kg per box, thus giving dimensions of height 31, length 36.5 and width 27.5.</p>
+                            <h4>Empaquetado</h4>
+                            <p class="m-0">La caja contiene 12 botellas con un peso aproximado de 20 kg por caja dando asi unas dimensiones de alto 31, largo 36.5 y ancho27.5</p>
                         </div>
                     </div>
                 </div>
@@ -205,7 +205,7 @@
                             <i class="fas fa-photo-video service-icon"></i>
                         </div>
                         <div class="col-sm-7">
-                            <h4>Reference video</h4>
+                            <h4>Video de referencia</h4>
                             <p class="m-0"><a href="https://www.youtube.com/watch?v=LjpVLymQcEk">https://www.youtube.com/watch?v=LjpVLymQcEk</a></p>
                         </div>
                     </div>
@@ -239,12 +239,12 @@
     <div id="recetas" class="container-fluid pt-5">
         <div class="container">
             <div class="section-title">
-                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Recipes</h4>
-                <h1 class="display-4">Quick and Easy</h1>
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Recetas</h4>
+                <h1 class="display-4">Rapidas y faciles</h1>
             </div>
             <div class="row">
                 <div class="col-lg-6">
-                    <h1 class="mb-5">Beverages</h1>
+                    <h1 class="mb-5">Bebidas</h1>
                     <div class="row align-items-center mb-5">
                         <div class="col-4 col-sm-3">
                             <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-1.png" alt="">
@@ -252,7 +252,7 @@
                         </div>
                         <div class="col-8 col-sm-9">
                             <h4>Michelada</h4>
-                            <p class="m-0">In a frosty glass with salt, add cubed ice, the juice of one lemon, 1/2 glass of salsangrita and top with your favorite beer.</p>
+                            <p class="m-0">En un vaso escarchado con sal, agrega hielo en cubos, el jugo de un limón 1/2 vaso de salsangrita y completa con tu cerveza favorita.</p>
                         </div>
                     </div>
                     <div class="row align-items-center mb-5">
@@ -262,7 +262,7 @@
                         </div>
                         <div class="col-8 col-sm-9">
                             <h4>Tequila Bandera</h4>
-                            <p class="m-0">The traditional par excellence: a shot of lemon juice, a shot of tequila of your choice and a shot of salsangrita.</p>
+                            <p class="m-0">El tradicional por excelencia: un caballito de jugo de limón, un caballito de tequila de tu preferencia y un caballito de salsangrita.</p>
                         </div>
                     </div>
                     <div class="row align-items-center mb-5">
@@ -272,20 +272,20 @@
                         </div>
                         <div class="col-8 col-sm-9">
                             <h4>Vampiro</h4>
-                            <p class="m-0">In a frosty glass with chili powder, add ice cubes, the juice of 1 lemon, 1/3 of the glass with tequila of your choice, 1/3 of salsangrita and complement with grapefruit soda.</p>
+                            <p class="m-0">En un vaso escarchado con chile en polvo, agrega hielo en cubos, el jugo de 1 limón, 1/3 del vaso con tequila de tu preferencía, 1/3 de salsangrita y complementa con refresco de toronja.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <h1 class="mb-5">Foods</h1>
+                    <h1 class="mb-5">Comidas</h1>
                     <div class="row align-items-center mb-5">
                         <div class="col-4 col-sm-3">
                             <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-4.png" alt="">
                             {{-- <h5 class="menu-price">$5</h5> --}}
                         </div>
                         <div class="col-8 col-sm-9">
-                            <h4>Meat and Seafood</h4>
-                            <p class="m-0">Place the meat in a glass bowl and for each kilo of meat half a cup of salsangrita and let it rest for 2 hours and then roast. In another bowl, add the seafood, serrano pepper, cucumber, cilantro, onion and avocado. Finally, bathe the seafood in salsangrita and enjoy.</p>
+                            <h4>Carnes y mariscos</h4>
+                            <p class="m-0">Coloca en un bol de vidrio la carne y por cada kilo de carne media taza de salsangrita y deja reposar por 2 horas para despues asar. En otro bol añade los mariscos, chile serrano, pepino, cilantro, cebolla y aguacate por ultimo baña los mariscos en salsangrita y a disfrutar. </p>
                         </div>
                     </div>
                     <div class="row align-items-center mb-5">
@@ -294,8 +294,8 @@
                             {{-- <h5 class="menu-price">$7</h5> --}}
                         </div>
                         <div class="col-8 col-sm-9">
-                            <h4>Snacks</h4>
-                            <p class="m-0">Cover your favorite snacks with salsangrita, whether they are peanuts, potatoes, beans... They are all delicious with salsangrita!.</p>
+                            <h4>Botanas</h4>
+                            <p class="m-0">Baña con salsangrita tus botanas favoritas, ya sean cacahuates, papas, habas... ¡Todas están deliciosas con salsangrita!.</p>
                         </div>
                     </div>
                     <div class="row align-items-center mb-5">
@@ -304,8 +304,8 @@
                             {{-- <h5 class="menu-price">$9</h5> --}}
                         </div>
                         <div class="col-8 col-sm-9">
-                            <h4>Fruits</h4>
-                            <p class="m-0">Cut the fruit or vegetables of your choice into wedges and bathe with salsangrita to taste. TIP: Make some simple and beautiful mango, apple and pineapple skewers to accompany with salsangrita. You won't regret it!.</p>
+                            <h4>Frutas</h4>
+                            <p class="m-0">Corta en gajitos la fruta o verdura de tu preferencia y baña con salsangrita al gusto. TIP: Haz unas sencillas y bonitas brochetas de mango, manzana y piña para acompañar con salsangrita ¡No te arrepentiras!</p>
                         </div>
                     </div>
                 </div>
@@ -324,18 +324,18 @@
                         <div class="p-5">
                             <div class="mb-4">
                                 {{-- <h1 class="display-3 text-primary">30% OFF</h1> --}}
-                                <h1 class="text-white">Location</h1>
+                                <h1 class="text-white">Ubicación</h1>
                             </div>
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d118472.47150669509!2d-102.36151233556629!3d21.88587916625986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8429ec143ae4d9fb%3A0x4016978679c5220!2sAguascalientes%2C%20Ags.!5e0!3m2!1ses-419!2smx!4v1664398053619!5m2!1ses-419!2smx" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="text-center p-5" style="background: rgba(51, 33, 29, .8);">
-                            <h1 class="text-white mb-4 mt-5">Contact Us</h1>
+                            <h1 class="text-white mb-4 mt-5">Contáctanos</h1>
                             <form method="POST" class="mb-5" action="{{ route('contact.us.store') }}" id="contactUSForm">
                             {{ csrf_field() }}    
                             <div class="form-group">
-                                    <input type="text" name="name" class="form-control bg-transparent border-primary p-4" placeholder="Name" value="{{ old('name') }}" required>
+                                    <input type="text" name="name" class="form-control bg-transparent border-primary p-4" placeholder="Nombre" value="{{ old('name') }}" required>
                                 </div>
                                 <div class="form-group">
                                     <input type="text" name="email" class="form-control bg-transparent border-primary p-4" placeholder="Email" value="{{ old('email') }}" required>
@@ -343,13 +343,13 @@
                                 </div>
                                 <div class="form-group">
                                     <div class="date" id="date" data-target-input="nearest">
-                                        <input type="text" name="phone" class="form-control bg-transparent border-primary p-4" placeholder="Phone" value="{{ old('phone') }}" required>
+                                        <input type="text" name="phone" class="form-control bg-transparent border-primary p-4" placeholder="Teléfono" value="{{ old('phone') }}" required>
                                         <!-- {{-- <input type="text" class="form-control bg-transparent border-primary p-4 datetimepicker-input" placeholder="Date" data-target="#date" data-toggle="datetimepicker"/> --}} -->
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <div class="time" id="time" data-target-input="nearest">
-                                        <textarea name="message" placeholder="Message" rows="3" class="form-control bg-transparent border-primary p-4" value="{{ old('message') }}" required></textarea>
+                                        <textarea name="message" placeholder="Mensaje" rows="3" class="form-control bg-transparent border-primary p-4" value="{{ old('message') }}" required></textarea>
                                         <!-- {{-- <input type="text" class="form-control bg-transparent border-primary p-4 datetimepicker-input" placeholder="Time" data-target="#time" data-toggle="datetimepicker"/> --}} -->
                                     </div>
                                 </div>
@@ -364,7 +364,7 @@
                                 </div> --}}
                                 
                                 <div>
-                                    <button class="btn btn-primary btn-block font-weight-bold py-3" type="submit">Send</button>
+                                    <button class="btn btn-primary btn-block font-weight-bold py-3" type="submit">Enviar</button>
                                 </div>
                             </form>
                         </div>
@@ -434,20 +434,20 @@
     <div class="container-fluid footer text-white mt-5 pt-5 px-0 position-relative overlay-top">
         <div class="row mx-0 pt-5 px-sm-3 px-lg-5 mt-4">
             <div class="col-lg-4 col-md-6 mb-5">
-                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">USA</h4>
+                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Extranjero</h4>
                 <p><i class="fas fa-user mr-2"></i>Miguel Mora Rodríguez</p>
                 <p><i class="fa fa-phone-alt mr-2"></i>+52 81 8022 5201</p>
                 <p class="m-0"><i class="fa fa-envelope mr-2"></i>mmorar@salsangrita.com</p>
                 <hr style="border-color: beige">
-                <p><i class="fas fa-user mr-2"></i>Martha Lucia Chaires Calderón</p>
-                <p><i class="fa fa-phone-alt mr-2"></i>+52 444 800 7787</p>
-                <p class="m-0"><i class="fa fa-envelope mr-2"></i>mchaires@salsangrita.com</p>
-            </div>
-            <div class="col-lg-4 col-md-6 mb-5">
-                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">méxico</h4>
                 <p><i class="fas fa-user mr-2"></i>Miguel Mora Hernández</p>
                 <p><i class="fa fa-phone-alt mr-2"></i>+52 81 1738 0237</p>
                 <p class="m-0"><i class="fa fa-envelope mr-2"></i>mmorah@salsangrita.com</p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-5">
+                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">méxico</h4>
+                <p><i class="fas fa-user mr-2"></i>Martha Lucia Chaires Calderón</p>
+                <p><i class="fa fa-phone-alt mr-2"></i>+52 444 800 7787</p>
+                <p class="m-0"><i class="fa fa-envelope mr-2"></i>mchaires@salsangrita.com</p>
                 <hr style="border-color: beige">
                 <p><i class="fas fa-user mr-2"></i>Gerardo Mora Hernández</p>
                 <p><i class="fa fa-phone-alt mr-2"></i>+52 444 419 7990</p>
@@ -455,7 +455,7 @@
             </div>
            
             <div class="col-lg-4 col-md-6 mb-5">
-                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Follow us</h4>
+                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Siguenos</h4>
                 {{-- <p>Amet elitr vero magna sed ipsum sit kasd sea elitr lorem rebum</p> --}}
                 <div class="d-flex justify-content-start">
                     <a target="_blank" class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="https://www.youtube.com/channel/UCv0L2urXemKRQJfYjIClcqA"><i class="fab fa-youtube"></i></a>
@@ -465,8 +465,8 @@
             </div>
         </div>
         <div class="container-fluid text-center text-white border-top mt-4 py-4 px-sm-3 px-md-5" style="border-color: rgba(256, 256, 256, .1) !important;">
-            <p class="mb-2 text-white">Copyright &copy; <a class="font-weight-bold" href="#">salsangrita</a>. All rights reserved.</a></p>
-            <p class="m-0 text-white">Created by <a class="font-weight-bold" href="https://htmlcodex.com">Evoluciona</a></p>
+            <p class="mb-2 text-white">Copyright &copy; <a class="font-weight-bold" href="#">salsangrita</a>. Todos los derechos reservados.</a></p>
+            <p class="m-0 text-white">Creado por <a class="font-weight-bold" href="https://htmlcodex.com">Evoluciona</a></p>
         </div>
     </div>
     <!-- Footer End -->

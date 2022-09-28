@@ -17,6 +17,9 @@ use App\Mail\ContactMail;
 */
 
 Route::get('/', function () {
+    return view('bienvenido');
+});
+Route::get('/in', function () {
     return view('welcome');
 });
 Route::get('contact-us', [ContactController::class, 'index']);
