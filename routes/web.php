@@ -20,6 +20,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::post('contact-us', [ContactController::class, 'store'])->name('contact.us.store');
-// Route::get('/send', function (){
-//     Mail::to('b.almendarezcarlos@gmail.com')->send( new ContactMail());
-// })->name('send');
+

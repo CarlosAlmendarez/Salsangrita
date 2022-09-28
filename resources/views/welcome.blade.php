@@ -60,6 +60,13 @@
                     <a href="#producto" class="nav-item nav-link">Producto</a>
                     <a href="#recetas" class="nav-item nav-link">Recetas</a>
                     <a href="#contacto" class="nav-item nav-link">Contacto</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Idioma <i class="fas fa-language"></i></a>
+                        <div class="dropdown-menu text-capitalize">
+                            <a href="" class="dropdown-item">Español</a>
+                            <a href="" class="dropdown-item">Ingles</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -439,15 +446,15 @@
                 <p><i class="fa fa-phone-alt mr-2"></i>+52 81 8022 5201</p>
                 <p class="m-0"><i class="fa fa-envelope mr-2"></i>mmorar@salsangrita.com</p>
                 <hr style="border-color: beige">
-                <p><i class="fas fa-user mr-2"></i>Miguel Mora Hernández</p>
-                <p><i class="fa fa-phone-alt mr-2"></i>+52 81 1738 0237</p>
-                <p class="m-0"><i class="fa fa-envelope mr-2"></i>mmorah@salsangrita.com</p>
-            </div>
-            <div class="col-lg-4 col-md-6 mb-5">
-                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">méxico</h4>
                 <p><i class="fas fa-user mr-2"></i>Martha Lucia Chaires Calderón</p>
                 <p><i class="fa fa-phone-alt mr-2"></i>+52 444 800 7787</p>
                 <p class="m-0"><i class="fa fa-envelope mr-2"></i>mchaires@salsangrita.com</p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-5">
+                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">méxico</h4>
+                <p><i class="fas fa-user mr-2"></i>Miguel Mora Hernández</p>
+                <p><i class="fa fa-phone-alt mr-2"></i>+52 81 1738 0237</p>
+                <p class="m-0"><i class="fa fa-envelope mr-2"></i>mmorah@salsangrita.com</p>
                 <hr style="border-color: beige">
                 <p><i class="fas fa-user mr-2"></i>Gerardo Mora Hernández</p>
                 <p><i class="fa fa-phone-alt mr-2"></i>+52 444 419 7990</p>
