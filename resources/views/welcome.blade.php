@@ -60,6 +60,13 @@
                     <a href="#producto" class="nav-item nav-link">Data Sheet</a>
                     <a href="#recetas" class="nav-item nav-link">Recipes</a>
                     <a href="#contacto" class="nav-item nav-link">Contact us</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Idioma <i class="fas fa-language"></i></a>
+                        <div class="dropdown-menu text-capitalize">
+                            <a href="" class="dropdown-item">Español</a>
+                            <a href="" class="dropdown-item">Ingles</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </nav>
