@@ -329,16 +329,10 @@
                     <div class="col-lg-6 my-5 my-lg-0">
                         <div class="p-5">
                             <div class="mb-4">
-                                <h1 class="display-3 text-primary">30% OFF</h1>
-                                <h1 class="text-white">For Online Reservation</h1>
+                                {{-- <h1 class="display-3 text-primary">30% OFF</h1> --}}
+                                <h1 class="text-white">Ubicación</h1>
                             </div>
-                            <p class="text-white">Lorem justo clita erat lorem labore ea, justo dolor lorem ipsum ut sed eos,
-                                ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea</p>
-                            <ul class="list-inline text-white m-0">
-                                <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</li>
-                                <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</li>
-                                <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</li>
-                            </ul>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d118472.47150669509!2d-102.36151233556629!3d21.88587916625986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8429ec143ae4d9fb%3A0x4016978679c5220!2sAguascalientes%2C%20Ags.!5e0!3m2!1ses-419!2smx!4v1664398053619!5m2!1ses-419!2smx" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
                     <div class="col-lg-6">
