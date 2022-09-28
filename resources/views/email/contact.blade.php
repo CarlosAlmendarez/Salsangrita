@@ -5,6 +5,5 @@
 <strong>Nombre: </strong>{{ $data->name }} <br>
 <strong>Correo: </strong>{{ $data->email }} <br>
 <strong>Teléfono: </strong>{{ $data->phone }} <br>
-<strong>Asunto: </strong>{{ $data->subject }} <br>
 <strong>Mensaje: </strong>{{ $data->message }} <br><br>
   
