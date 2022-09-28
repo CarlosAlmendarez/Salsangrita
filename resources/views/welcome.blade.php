@@ -345,23 +345,24 @@
                         <div class="text-center p-5" style="background: rgba(51, 33, 29, .8);">
                             <h1 class="text-white mb-4 mt-5">Contáctanos</h1>
                             <form method="POST" class="mb-5" action="{{ route('contact.us.store') }}" id="contactUSForm">
-                                <div class="form-group">
+                            {{ csrf_field() }}    
+                            <div class="form-group">
                                     <input type="text" name="name" class="form-control bg-transparent border-primary p-4" placeholder="Nombre" value="{{ old('name') }}" required>
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" name="email" class="form-control bg-transparent border-primary p-4" placeholder="Email" value="{{ old('email') }}">
-                                    {{-- <input type="email" class="form-control bg-transparent border-primary p-4" placeholder="Email" required="required" /> --}}
+                                    <input type="text" name="email" class="form-control bg-transparent border-primary p-4" placeholder="Email" value="{{ old('email') }}" required>
+                                    <!-- {{-- <input type="email" class="form-control bg-transparent border-primary p-4" placeholder="Email" required="required" /> --}} -->
                                 </div>
                                 <div class="form-group">
                                     <div class="date" id="date" data-target-input="nearest">
-                                        <input type="text" name="phone" class="form-control bg-transparent border-primary p-4" placeholder="Teléfono" value="{{ old('phone') }}">
-                                        {{-- <input type="text" class="form-control bg-transparent border-primary p-4 datetimepicker-input" placeholder="Date" data-target="#date" data-toggle="datetimepicker"/> --}}
+                                        <input type="text" name="phone" class="form-control bg-transparent border-primary p-4" placeholder="Teléfono" value="{{ old('phone') }}" required>
+                                        <!-- {{-- <input type="text" class="form-control bg-transparent border-primary p-4 datetimepicker-input" placeholder="Date" data-target="#date" data-toggle="datetimepicker"/> --}} -->
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <div class="time" id="time" data-target-input="nearest">
-                                        <textarea name="message" placeholder="Mensaje" rows="3" class="form-control bg-transparent border-primary p-4">{{ old('message') }}</textarea>
-                                        {{-- <input type="text" class="form-control bg-transparent border-primary p-4 datetimepicker-input" placeholder="Time" data-target="#time" data-toggle="datetimepicker"/> --}}
+                                        <textarea name="message" placeholder="Mensaje" rows="3" class="form-control bg-transparent border-primary p-4" value="{{ old('message') }}" required></textarea>
+                                        <!-- {{-- <input type="text" class="form-control bg-transparent border-primary p-4 datetimepicker-input" placeholder="Time" data-target="#time" data-toggle="datetimepicker"/> --}} -->
                                     </div>
                                 </div>
                                 {{-- <div class="form-group">
