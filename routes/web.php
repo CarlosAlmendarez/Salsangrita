@@ -19,7 +19,6 @@ use App\Mail\ContactMail;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('contact-us', [ContactController::class, 'index']);
 Route::post('contact-us', [ContactController::class, 'store'])->name('contact.us.store');
 // Route::get('/send', function (){
 //     Mail::to('b.almendarezcarlos@gmail.com')->send( new ContactMail());
